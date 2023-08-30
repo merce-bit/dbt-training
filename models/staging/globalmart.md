@@ -1,4 +1,4 @@
-{%% docs shipmode}
+{% docs shipmode %}
 
 One of the following values:
 
