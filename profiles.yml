@@ -1,0 +1,15 @@
+# dbt_project_dir/profiles.yml
+
+
+
+  my_dev_profile:
+  target: dev  # Default target
+  outputs:
+    dev:
+      type: snowflake
+      account: rg50341.snowflakecomputing.com
+      role: ACCOUNTADMIN
+      database: TEST
+      warehouse: TRANSFORM
+      schema: PUBLIC  # Replace with your desired schema name
+      #threads: 1
